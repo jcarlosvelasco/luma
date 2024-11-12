@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		01809C4B2CE399A900646BAA /* BrightroomEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4A2CE399A900646BAA /* BrightroomEngine */; };
+		01809C4D2CE399A900646BAA /* BrightroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4C2CE399A900646BAA /* BrightroomUI */; };
+		01809C4F2CE399A900646BAA /* BrightroomUIPhotosCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4E2CE399A900646BAA /* BrightroomUIPhotosCrop */; };
+		01809C522CE399E600646BAA /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C512CE399E600646BAA /* StableDiffusion */; };
+		01809C552CE39A3200646BAA /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C542CE39A3200646BAA /* ZIPFoundation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		01809B512CE397D800646BAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01809C4F2CE399A900646BAA /* BrightroomUIPhotosCrop in Frameworks */,
+				01809C522CE399E600646BAA /* StableDiffusion in Frameworks */,
+				01809C4B2CE399A900646BAA /* BrightroomEngine in Frameworks */,
+				01809C4D2CE399A900646BAA /* BrightroomUI in Frameworks */,
+				01809C552CE39A3200646BAA /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +125,11 @@
 			);
 			name = luma;
 			packageProductDependencies = (
+				01809C4A2CE399A900646BAA /* BrightroomEngine */,
+				01809C4C2CE399A900646BAA /* BrightroomUI */,
+				01809C4E2CE399A900646BAA /* BrightroomUIPhotosCrop */,
+				01809C512CE399E600646BAA /* StableDiffusion */,
+				01809C542CE39A3200646BAA /* ZIPFoundation */,
 			);
 			productName = luma;
 			productReference = 01809B402CE397D700646BAA /* luma.app */;
@@ -195,6 +213,11 @@
 			);
 			mainGroup = 01809B372CE397D600646BAA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */,
+				01809C502CE399E600646BAA /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */,
+				01809C532CE39A3200646BAA /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 01809B412CE397D700646BAA /* Products */;
 			projectDirPath = "";
@@ -552,6 +575,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jcarlosvelasco/Brightroom";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		01809C502CE399E600646BAA /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/ml-stable-diffusion";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		01809C532CE39A3200646BAA /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01809C4A2CE399A900646BAA /* BrightroomEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */;
+			productName = BrightroomEngine;
+		};
+		01809C4C2CE399A900646BAA /* BrightroomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */;
+			productName = BrightroomUI;
+		};
+		01809C4E2CE399A900646BAA /* BrightroomUIPhotosCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */;
+			productName = BrightroomUIPhotosCrop;
+		};
+		01809C512CE399E600646BAA /* StableDiffusion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01809C502CE399E600646BAA /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusion;
+		};
+		01809C542CE39A3200646BAA /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01809C532CE39A3200646BAA /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01809B382CE397D600646BAA /* Project object */;
 }
