@@ -178,7 +178,7 @@ Project Link: [https://github.com/jcarlosvelasco/luma](https://github.com/jcarlo
 [license-url]: https://github.com/jcarlosvelasco/luma/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jcarlosvelasco/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot1.png
 [JQuery-url]: https://jquery.com
 [SwiftUI]: https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png
 [SwiftUI-url]: https://developer.apple.com/xcode/swiftui/
