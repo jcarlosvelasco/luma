@@ -79,7 +79,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jcarlosvelasco`, `luma`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Luma is a photo editor that uses CoreML models to create stunning effects on your photos. It is built with SwiftUI and CoreML, using Clean Architecture.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
