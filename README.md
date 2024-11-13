@@ -166,16 +166,16 @@ Project Link: [https://github.com/jcarlosvelasco/luma](https://github.com/jcarlo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/jcarlosvelasco/luma.svg?style=for-the-badge
 [contributors-url]: https://github.com/jcarlosvelasco/luma/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jcarlosvelasco/luma.svg?style=for-the-badge
 [forks-url]: https://github.com/jcarlosvelasco/luma/network/members
-[stars-shield]: https://img.shields.io/github/stars/jcarlosvelasco/luma.svg?style=for-the-badge
 [stars-url]: https://github.com/jcarlosvelasco/luma/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jcarlosvelasco/luma.svg?style=for-the-badge
 [issues-url]: https://github.com/jcarlosvelasco/luma/issues
-[license-shield]: https://img.shields.io/github/license/jcarlosvelasco/luma.svg?style=for-the-badge
 [license-url]: https://github.com/jcarlosvelasco/luma/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg&logo=linkedin&colorB=555
+[contributors-shield]: https://img.shields.io/github/contributors/jcarlosvelasco/luma
+[forks-shield]: https://img.shields.io/github/forks/jcarlosvelasco/luma
+[stars-shield]: https://img.shields.io/github/stars/jcarlosvelasco/luma
+[issues-shield]: https://img.shields.io/github/issues/jcarlosvelasco/luma
+[license-shield]: https://img.shields.io/github/license/jcarlosvelasco/luma
 [linkedin-url]: https://www.linkedin.com/in/jcarlosvelasco/
 [product-screenshot]: images/screenshot1.png
