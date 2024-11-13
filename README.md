@@ -145,37 +145,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
--   [ ] Feature 1
--   [ ] Feature 2
--   [ ] Feature 3
-    -   [ ] Nested Feature
+-   [ ] Translations
+-   [ ] Ability to download models
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
-</a>
 
 <!-- LICENSE -->
 
@@ -189,7 +164,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Juan Carlos Velasco Sánchez - jcarlosvelasco14@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -217,12 +192,12 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://www.linkedin.com/in/jcarlosvelasco/
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/jcarlosvelasco/
 [product-screenshot]: images/screenshot.png
 [JQuery-url]: https://jquery.com
 [SwiftUI]: https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png
 [SwiftUI-url]: https://developer.apple.com/xcode/swiftui/
 [CoreML]: https://developer.apple.com/assets/elements/icons/coreml/coreml-96x96_2x.png
-[CoreML-url]: https://developer.apple.com/documentation/coreml
+[CoreML-url]: https://docs-assets.developer.apple.com/published/1ac7f87a16a25c1edf7c34351cde41ca/media-3901331~dark@2x.png
