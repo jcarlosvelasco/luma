@@ -166,25 +166,25 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Juan Carlos Velasco Sánchez - jcarlosvelasco14@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/jcarlosvelasco/luma](https://github.com/jcarlosvelasco/luma)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 -   []()
 -   []()
 -   []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/jcarlosvelasco/luma/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
@@ -200,4 +200,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [SwiftUI]: https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png
 [SwiftUI-url]: https://developer.apple.com/xcode/swiftui/
 [CoreML]: https://developer.apple.com/assets/elements/icons/coreml/coreml-96x96_2x.png
-[CoreML-url]: https://docs-assets.developer.apple.com/published/1ac7f87a16a25c1edf7c34351cde41ca/media-3901331~dark@2x.png
+[CoreML-url]: images/coreml.png
