@@ -85,8 +85,8 @@ Luma is a photo editor that uses CoreML models to create stunning effects on you
 
 ### Built With
 
--   <img src="/images/swiftui.png" alt="SwiftUI" width="300">
--   <img src="/images/coreml.png" alt="CoreML" width="300">
+-   <img src="/images/swiftui.png" alt="SwiftUI" width="80"> SwiftUI
+-   <img src="/images/coreml.png" alt="CoreML" width="80"> CoreML
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
