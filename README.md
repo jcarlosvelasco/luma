@@ -77,7 +77,7 @@
 
 ## About The Project
 
-[![Luma][product-screenshot]](/images/screenshot1.png)
+<img src="/images/screenshot1.png" alt="Luma" width="600">
 
 Luma is a photo editor that uses CoreML models to create stunning effects on your photos. It is built with SwiftUI and CoreML, using Clean Architecture.
 
