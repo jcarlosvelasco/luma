@@ -85,8 +85,8 @@ Luma is a photo editor that uses CoreML models to create stunning effects on you
 
 ### Built With
 
--   <img src="/images/swiftui.png" alt="SwiftUI" width="80"> SwiftUI
--   <img src="/images/coreml.png" alt="CoreML" width="80"> CoreML
+-   <img src="/images/swiftui.png" alt="SwiftUI" width="60"> SwiftUI
+-   <img src="/images/coreml.png" alt="CoreML" width="60"> CoreML
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,8 +179,3 @@ Project Link: [https://github.com/jcarlosvelasco/luma](https://github.com/jcarlo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jcarlosvelasco/
 [product-screenshot]: images/screenshot1.png
-[JQuery-url]: https://jquery.com
-[SwiftUI]: https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png
-[SwiftUI-url]: https://developer.apple.com/xcode/swiftui/
-[CoreML]: https://developer.apple.com/assets/elements/icons/coreml/coreml-96x96_2x.png
-[CoreML-url]: images/coreml.png
