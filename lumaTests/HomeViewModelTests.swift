@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import ImageApp2
+@testable import luma
 
 final class ImageApp2Tests: XCTestCase {
     var vm: HomeViewViewModel!

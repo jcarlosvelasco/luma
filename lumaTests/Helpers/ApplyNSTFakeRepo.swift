@@ -6,11 +6,11 @@
 //
 
 import Foundation
-@testable import ImageApp2
+@testable import luma
 import UIKit
 
 class ApplyNSTFakeRepo: ApplyNSTRepositoryType {
-    func applyNST(image: UIImage, style: ImageApp2.NSTStyle) async -> Result<UIImage, ImageDomainError> {
+    func applyNST(image: UIImage, style: luma.NSTStyle) async -> Result<UIImage, ImageDomainError> {
         let size = CGSize(width: 100, height: 100)
         UIGraphicsBeginImageContext(size)
         

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import ImageApp2
+@testable import luma
 import UIKit
 
 class ImageUpscaleFakeRepo: UpscaleImageRepositoryType {
