@@ -9,7 +9,7 @@ import Foundation
 import CoreImage
 import UIKit
 
-class ApplyFilters: ApplyFiltersType {
+class ApplyFilters: ApplyFiltersInfrastructureType {
     let context: CIContext
     
     init(context: CIContext) {

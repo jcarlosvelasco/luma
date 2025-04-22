@@ -9,6 +9,7 @@ import SwiftUI
 import PhotosUI
 import BrightroomEngine
 import Combine
+import Factory
 
 class HomeViewViewModel: ObservableObject {
     let upscaleImage: UpscaleImageType
@@ -18,7 +19,14 @@ class HomeViewViewModel: ObservableObject {
     let removeObject: RemoveObjectType
     let ciContext: CIContext
     
-    init(upscaleImage: UpscaleImageType, applyFilter: ApplyFilterType, applyTweaks: ApplyTweaksType, applyNST: ApplyNSTType, removeObject: RemoveObjectType, ciContext: CIContext) {
+    init(
+        upscaleImage: UpscaleImageType = Container.shared.upscaleImageUC(),
+        applyFilter: ApplyFilterType = Container.shared.applyFilterUC(),
+        applyTweaks: ApplyTweaksType = Container.shared.applyTweaksUC(),
+        applyNST: ApplyNSTType = Container.shared.applyNSTUC(),
+        removeObject: RemoveObjectType = Container.shared.removeObjectUC(),
+        ciContext: CIContext = Container.shared.ciContext()
+    ) {
         self.upscaleImage = upscaleImage
         self.applyFilter = applyFilter
         self.applyTweaks = applyTweaks

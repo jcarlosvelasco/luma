@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015F29662DB813D6009EAAAD /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 015F29652DB813D6009EAAAD /* Factory */; };
 		01809C4B2CE399A900646BAA /* BrightroomEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4A2CE399A900646BAA /* BrightroomEngine */; };
 		01809C4D2CE399A900646BAA /* BrightroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4C2CE399A900646BAA /* BrightroomUI */; };
 		01809C4F2CE399A900646BAA /* BrightroomUIPhotosCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 01809C4E2CE399A900646BAA /* BrightroomUIPhotosCrop */; };
@@ -63,6 +64,7 @@
 				01809C4F2CE399A900646BAA /* BrightroomUIPhotosCrop in Frameworks */,
 				01809C522CE399E600646BAA /* StableDiffusion in Frameworks */,
 				01809C4B2CE399A900646BAA /* BrightroomEngine in Frameworks */,
+				015F29662DB813D6009EAAAD /* Factory in Frameworks */,
 				01809C4D2CE399A900646BAA /* BrightroomUI in Frameworks */,
 				01809C552CE39A3200646BAA /* ZIPFoundation in Frameworks */,
 			);
@@ -85,12 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015F29642DB813D6009EAAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		01809B372CE397D600646BAA = {
 			isa = PBXGroup;
 			children = (
 				01809B422CE397D700646BAA /* luma */,
 				01809B532CE397D800646BAA /* lumaTests */,
 				01809B5D2CE397D800646BAA /* lumaUITests */,
+				015F29642DB813D6009EAAAD /* Frameworks */,
 				01809B412CE397D700646BAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +140,7 @@
 				01809C4E2CE399A900646BAA /* BrightroomUIPhotosCrop */,
 				01809C512CE399E600646BAA /* StableDiffusion */,
 				01809C542CE39A3200646BAA /* ZIPFoundation */,
+				015F29652DB813D6009EAAAD /* Factory */,
 			);
 			productName = luma;
 			productReference = 01809B402CE397D700646BAA /* luma.app */;
@@ -217,6 +228,7 @@
 				01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */,
 				01809C502CE399E600646BAA /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */,
 				01809C532CE39A3200646BAA /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				011D2ECD2DB80B0C008BBB39 /* XCRemoteSwiftPackageReference "Factory" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 01809B412CE397D700646BAA /* Products */;
@@ -577,6 +589,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		011D2ECD2DB80B0C008BBB39 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
 		01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jcarlosvelasco/Brightroom";
@@ -604,6 +624,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		015F29652DB813D6009EAAAD /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 011D2ECD2DB80B0C008BBB39 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
 		01809C4A2CE399A900646BAA /* BrightroomEngine */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 01809C492CE399A900646BAA /* XCRemoteSwiftPackageReference "Brightroom" */;

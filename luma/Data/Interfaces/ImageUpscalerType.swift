@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-protocol ImageUpscalerType {
+protocol ImageUpscalerInfrastructureType {
     func upscaleImage(image: UIImage) async -> Result<UIImage, ImageUpscalerError>
 }

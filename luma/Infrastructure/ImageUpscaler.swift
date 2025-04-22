@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ImageUpscaler: ImageUpscalerType {
+class ImageUpscaler: ImageUpscalerInfrastructureType {
     let imageUtils: ImageUtils
 
     init(imageUtils: ImageUtils) {

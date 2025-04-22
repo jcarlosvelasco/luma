@@ -1,5 +1,5 @@
 {
-  "originHash" : "a45763e456ae1beeda2801c9f8530ac4c21dea3edbc9a4adfb1c3585aa87ac1e",
+  "originHash" : "75ff6290e2043fb1a4f8c812cca731c793d0c104b7e505d7d531346d93f36177",
   "pins" : [
     {
       "identity" : "brightroom",
@@ -8,6 +8,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "ebf15e0773480aed5931b6a2b01ffaee0ebc1025"
+      }
+    },
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory.git",
+      "state" : {
+        "revision" : "c8110886836ab4dd1136dbac0c04f0f36cd68540",
+        "version" : "2.4.5"
       }
     },
     {
@@ -33,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ReactiveX/RxSwift.git",
       "state" : {
-        "revision" : "c7c7d2cf50a3211fe2843f76869c698e4e417930",
-        "version" : "6.8.0"
+        "revision" : "5dd1907d64f0d36f158f61a466bab75067224893",
+        "version" : "6.9.0"
       }
     },
     {
@@ -96,8 +105,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/FluidGroup/swiftui-Hosting",
       "state" : {
-        "revision" : "1e7f5317579b2c6640288dcee5056af485fd5324",
-        "version" : "2.2.0"
+        "revision" : "975f2565cff7625f610c36cd7c146d8ab104a1dc",
+        "version" : "2.3.0"
       }
     },
     {

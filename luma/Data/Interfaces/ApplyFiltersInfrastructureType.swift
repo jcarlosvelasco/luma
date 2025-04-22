@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-protocol ApplyFiltersType {
+protocol ApplyFiltersInfrastructureType {
     func addFilter(image: UIImage, filter: FilterType) -> Result<UIImage, FilterError>
 }

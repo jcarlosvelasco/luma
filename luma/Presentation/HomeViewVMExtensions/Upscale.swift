@@ -18,7 +18,7 @@ extension HomeViewViewModel {
             return
         }
         
-        let result = await upscaleImage.execute(image: inputImage)
+        let result = await self.upscaleImage.execute(image: inputImage)
         guard let outputImage = try? result.get() else {
             guard case .failure(let error) = result else {
                 showErrorAlert(msg: "Unexpected error")

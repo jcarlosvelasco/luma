@@ -11,7 +11,10 @@ import SwiftUI
 struct lumaApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeViewFactory.create()
+            HomeView(
+                homeViewVM: HomeViewViewModel(),
+                settingsVM: SettingsViewViewModel()
+            )
         }
     }
 }
